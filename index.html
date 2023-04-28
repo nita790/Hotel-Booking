@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking</title>
+  <!-- my css file -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- font-awesome css cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- jquerycss cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+  <!-- owl.Carousel cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+  <!-- 頁頭 head  -->
+  <div class="head">
+    <div class="container">
+      <div class="scoial">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="logo">
+        <img src="./image/logo.png" alt="">
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>100 Zhongzheng Dist., Taipei City</span>
+      </div>
+    </div>
+  </div>
+  <!-- 頁頭導覽列 header -->
+  <header class="header">
+    <div class="container">
+      <!-- 導覽列 navbar -->
+      <nav class="navbar">
+        <div class="sticky_logo logo">
+          <img src="./image/logo.png" alt="">
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#room">room</a></li>
+          <li><a href="#offers">offers</a></li>
+          <li><a href="#area">restaurant</a></li>
+          <li><a href="#customers">customers</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#map">map</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="head_contact">
+          <i class="fas fa-phone-volume"></i>
+          <span>+000 1234 5678</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 首頁 home -->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="text">
+        <h1>Make Memories</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nobis!</p>
+      </div>
+      <div class="content">
+        <div class="item">
+          <p>入住日期</p>
+          <input type="date">
+        </div>
+        <div class="item">
+          <p>退房日期</p>
+          <input type="date">
+        </div>
+        <div class="item">
+          <p>成人</p>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="item">
+          <p>小孩</p>
+          <input type="number" placeholder="01">
+        </div>
+        <div class="item">
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 關於 about -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="heading">
+        <h4>EXPLORE</h4>
+        <h2>We are cool to give you pleasure</h2>
+      </div>
+      <div class="content">
+        <div class="left">
+          <h3>As much as comfort want to get from us everything</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et porro, quasi iure placeat facilis,
+            dignissimos, obcaecati aspernatur rerum mollitia odio neque reiciendis. Facere vel optio minima nulla sint
+            commodi.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et porro, quasi iure placeat facilis,
+            dignissimos, obcaecati aspernatur rerum mollitia odio neque reiciendis. Facere vel optio minima nulla sint
+            commodi.</p>
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+        <div class="right">
+          <img src="./image/about.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊 wrapper -->
+  <section class="wrapper">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="heading">
+            <h4>THE CITY VIEW</h4>
+            <h3>A charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, nulla
+            aperiam eaque repellat dolorum, quam placeat dicta maxime perspiciatis, laudantium quod saepe est fugit
+            deserunt!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, laudantium quod saepe est fugit deserunt!</p>
+        </div>
+        <div class="item">
+          <div class="heading">
+            <h4>THE CITY VIEW</h4>
+            <h3>B charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, nulla
+            aperiam eaque repellat dolorum, quam placeat dicta maxime perspiciatis, laudantium quod saepe est fugit
+            deserunt!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, laudantium quod saepe est fugit deserunt!</p>
+        </div>
+        <div class="item">
+          <div class="heading">
+            <h4>THE CITY VIEW</h4>
+            <h3>C charming view of the city</h3>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, nulla
+            aperiam eaque repellat dolorum, quam placeat dicta maxime perspiciatis, laudantium quod saepe est fugit
+            deserunt!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum autem unde voluptate ab, laudantium quod saepe est fugit deserunt!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區塊 wrapper2 -->
+  <section class="wrapper2">
+    <div class="container">
+      <div class="heading">
+        <h4>FACILITIES</h4>
+        <h2>Giving entirely awesome</h2>
+      </div>
+      <div class="content">
+        <div class="item">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dignissimos.</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dignissimos.</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-car"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dignissimos.</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="item">
+          <i class="fa-sharp fa-solid fa-circle-info"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dignissimos.</p>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 房間 room -->
+  <section class="room" id="room">
+    <div class="container">
+      <div class="heading">
+        <h4>OUR ROOMS</h4>
+        <h2>Fascinating rooms & suites</h2>
+      </div>
+      <div class="content">
+        <div class="left">
+          <div class="item">
+            <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-desktop"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-resolving"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-mug-hot"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-user-tie"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+        </div>
+        <div class="right">
+          <img src="./image/room.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 倒數 timer -->
+  <section class="timer">
+    <div class="container">
+      <div class="heading">
+        <h4>LAST MINUTE</h4>
+        <h2><span>Incredible!</span> Are you coming today</h2>
+      </div>
+      <div class="time" id="time"></div>
+    </div>
+  </section>
+
+  <!-- 優惠 offers -->
+  <section class="offers" id="offers">
+    <div class="container">
+      <div class="heading">
+        <h4>EXCLUSIVE OFFERS</h4>
+        <h2>You can get an exclusive offer</h2>
+      </div>
+      <div class="content">
+        <div class="item">
+          <div class="left">
+            <img src="./image/offers1.jpg" alt="">
+          </div>
+          <div class="right">
+            <h3>Deluxe Room</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quidem aut quas maiores necessitatibus alias
+              quia culpa totam dolores qui.</p>
+            <p class="price">From $50.6/night</p>
+            <button>
+              <span>Check Availability</span>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <img src="./image/offers2.jpg" alt="">
+          </div>
+          <div class="right">
+            <h3>Deluxe Room</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quidem aut quas maiores necessitatibus alias
+              quia culpa totam dolores qui.</p>
+            <p class="price">From $50.6/night</p>
+            <button>
+              <span>Check Availability</span>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <img src="./image/offers3.jpg" alt="">
+          </div>
+          <div class="right">
+            <h3>Deluxe Room</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quidem aut quas maiores necessitatibus alias
+              quia culpa totam dolores qui.</p>
+            <p class="price">From $50.6/night</p>
+            <button>
+              <span>Check Availability</span>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <img src="./image/offers4.jpg" alt="">
+          </div>
+          <div class="right">
+            <h3>Deluxe Room</h3>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quidem aut quas maiores necessitatibus alias
+              quia culpa totam dolores qui.</p>
+            <p class="price">From $50.6/night</p>
+            <button>
+              <span>Check Availability</span>
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區域 area -->
+  <section class="area" id="area">
+    <div class="container">
+      <div class="heading">
+        <h4>RESTAURANT</h4>
+        <h2>The area we cover under ecorik</h2>
+      </div>
+      <div class="content">
+        <div class="left">
+          <img src="./image/restaurant.jpg" alt="">
+        </div>
+        <div class="right">
+          <ul>
+            <li>Restaurant</li>
+            <li>Swimming pool</li>
+            <li>Conference room</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eligendi ea pariatur illum maxime
+            laudantium aliquid reprehenderit. Ullam illum, mollitia illo culpa minus numquam, libero odit nulla commodi
+            molestias excepturi?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta facilis inventore in iure voluptatem
+            repellat libero. Incidunt maiores fugit inventore provident deserunt veniam vero accusantium odio, quae
+            nobis quia?</p>
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 優惠 offers 2 -->
+  <section class="offers2">
+    <div class="container">
+      <div class="heading">
+        <h4>EXCLUSIVE OFFERS</h4>
+        <h2>You can get an exclusive offer</h2>
+      </div>
+      <div class="content">
+        <div class="item">
+          <span class="sale">UP TO 30% OFF</span>
+          <h3>Swimming for man</h3>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <p>(432 Reviews)</p>
+          <div class="dot">
+            <i class="fa-regular fa-clock"></i>
+            <p>Duration: 2Hours</p>
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>18+ years</p>
+          </div>
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+        <div class="item">
+          <span class="sale">UP TO 30% OFF</span>
+          <h3>Swimming for man</h3>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <p>(432 Reviews)</p>
+          <div class="dot">
+            <i class="fa-regular fa-clock"></i>
+            <p>Duration: 2Hours</p>
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>18+ years</p>
+          </div>
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+        <div class="item">
+          <span class="sale">UP TO 30% OFF</span>
+          <h3>Swimming for man</h3>
+          <p>Swimming doller dolor sit aet odu tur adiing elitse</p>
+          <p>(432 Reviews)</p>
+          <div class="dot">
+            <i class="fa-regular fa-clock"></i>
+            <p>Duration: 2Hours</p>
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>18+ years</p>
+          </div>
+          <button>
+            <span>Check Availability</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 顧客 customers -->
+  <section class="customers" id="customers">
+    <div class="container">
+      <div class="heading">
+        <h4>TESTIMONIALS</h4>
+        <h2>What customers say</h2>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <div class="user">
+            <div class="avatar">
+              <img src="./image/avatar1.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>Ayman Jensi</p>
+              <p>2022/01/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <div class="user">
+            <div class="avatar">
+              <img src="./image/avatar2.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>Ayman Jensi</p>
+              <p>2022/01/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Excellent Swimming</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quis aut eius aperiam itaque optio
+            minus,acere omnis autem repudiandae similique a delectus veniam nostrum.</p>
+          <div class="user">
+            <div class="avatar">
+              <img src="./image/avatar3.jpg" alt="">
+            </div>
+            <div class="text">
+              <p>Ayman Jensi</p>
+              <p>2022/01/15</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 相片集 gallary -->
+  <section class="gallary">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="./image/gallary1.jpg" alt="">
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./image/gallary2.jpg" alt="">
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./image/gallary3.jpg" alt="">
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./image/gallary4.jpg" alt="">
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./image/gallary5.jpg" alt="">
+        <div class="overlay">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 部落格 blog -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="heading">
+        <h4>OUR BLOG</h4>
+        <h2>News & articles updates</h2>
+      </div>
+      <div class="content">
+        <div class="item">
+          <div class="pic">
+            <img src="./image/blog1.jpg" alt="">
+            <p class="hot">Hot</p>
+          </div>
+          <div class="text">
+            <div class="icon">
+              <i class="fa-regular fa-user"></i>
+              <p>user</p>
+              <i class="fa-regular fa-comments"></i>
+              <p>Comment</p>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos deserunt expedita sit corrupti,
+              quibusdam incidunt eius natus.</p>
+            <a href="#">Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="./image/blog2.jpg" alt="">
+            <p class="hot">Hot</p>
+          </div>
+          <div class="text">
+            <div class="icon">
+              <i class="fa-regular fa-user"></i>
+              <p>user</p>
+              <i class="fa-regular fa-comments"></i>
+              <p>Comment</p>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos deserunt expedita sit corrupti, quibusdam incidunt eius natus.</p>
+            <a href="#">Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pic">
+            <img src="./image/blog3.jpg" alt="">
+            <p class="hot">Hot</p>
+          </div>
+          <div class="text">
+            <div class="icon">
+              <i class="fa-regular fa-user"></i>
+              <p>user</p>
+              <i class="fa-regular fa-comments"></i>
+              <p>Comment</p>
+            </div>
+            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos deserunt expedita sit corrupti,
+              quibusdam incidunt eius natus.</p>
+            <a href="#">Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 地圖 map -->
+  <section class="map" id="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.217694435437!2d121.5112497738021!3d25.04734515576649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a97263b48c71%3A0x7f964669b3bf255e!2z6Ie65YyX6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1680861861106!5m2!1szh-TW!2stw"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- 頁尾 footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="subscribe">
+        <h2>Subscribe newsletter</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti obcaecati itaque voluptatibus ratione voluptates vitae autem quasi fugit! A, itaque.</p>
+        <div class="input">
+          <input type="email" placeholder="your email">
+          <button>
+            <span>Subscribe</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <div class="box">
+          <div class="logo">
+            <img src="./image/logo.png" alt="">
+          </div>
+          <p>網站練習<br> 
+            2023 All Rights Reserved. <br>
+            Design by GorkCoder<br>
+            圖片來源：unsplash</p>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="box">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Big Data</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Wellness</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Spa Gallery</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Reservation</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>FAQ</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Contact</p>
+              </div>
+            </a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Restaurant</p>  
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Swimming Pool</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Wellness & Spa</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Conference Room</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Events</p>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-angles-right"></i>
+                <p>Adult Room</p>
+              </div>
+            </a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h4>Address</h4>
+                  <p>b1F., No. 8, Zhengzhou Rd., Zhongzheng Dist., Taipei City</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+000 1234 5678</p>
+                </div>
+              </div>
+            </a></li>
+            <li><a href="#">
+              <div class="links">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>nita790@yahoo.com.tw</p>
+                </div>
+              </div>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jquery cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- owl.carousel cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- components.js -->
+  <script src="./js/jquery.countdown.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <!-- my js file -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
